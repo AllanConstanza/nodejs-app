@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 
 // Start the server and listen on port 3000
 //check if theres an environment variable called PORT
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => { //starts express server, listen for requests on PORT
   console.log(`Server is running on port ${PORT}`); //prints message to console
 });
