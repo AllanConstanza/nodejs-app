@@ -30,4 +30,3 @@ jobs:
         tags: allanconstanza/my-nodejs-app:latest  # Replace with your Docker Hub username and desired image name
 
     - name: Verify application functionality
-      uses: liatrio/apprentice-action@v1  # Optional: Verifies functionality using Liatrio's action
