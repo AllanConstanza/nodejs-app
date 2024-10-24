@@ -29,4 +29,5 @@ jobs:
         file: ./Dockerfile  # Dockerfile should be in the root directory, adjust if necessary
         push: true  # Push the built image to Docker Hub
         tags: allanconstanza/my-nodejs-app:latest  # Replace with your Docker Hub username and image name
-
+    - name: run tests
+      uses: liatrio/github-actions/apprentice-action@master
